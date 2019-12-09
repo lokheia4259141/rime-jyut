@@ -1,0 +1,19 @@
+﻿# Rime dictionary
+# encoding: utf-8
+
+---
+name: jyutping.mine
+version: "2019.12.09"
+sort: by_weight
+# 粵語審音配詞字庫：https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/
+# 導入預設詞彙
+use_preset_vocabulary: true
+# 從 jyutping.dict.yaml 導入包含單字註音的碼表
+import_tables:
+  - jyutping
+...
+
+# 自定義的字詞
+芝	chi	
+苳	dung	
+茄苳	ke dung	
